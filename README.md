@@ -1,8 +1,8 @@
-# Python 中級
-LinkedInラーニングの「Python 中級」コース用のリポジトリです。このコースは [LinkedInラーニング][lil-course-url]で視聴できます。
+# Python：ヒントとテクニック
+LinkedInラーニングの「Python：ヒントとテクニック」コース用のリポジトリです。このコースは [LinkedInラーニング][lil-course-url]で視聴できます。
 
-![Python 中級][lil-thumbnail-url] 
-Pythonの扱いに慣れ、もう少し実践的なプログラミング手法を学びたいと考えていますか。forループでリストやタプルを操作することに飽きたのであれば、Pythonのよりディープな面を学ぶときです。このコースはPythonの中級コースで、一通り基本を習得している方を対象としています。まずPythonのより深い仕様や、可変長引数やキーワード専用引数などの関数を作成するときに知っておくとよい内容を解説します。そして実践的なコレクションやクラス、オブジェクトのカスタマイズ方法、さらに実用に添ったログの取り方、ラムダ式や内包表記などを説明します。このコースを学んでPythonプログラマとして次のステージに進みましょう（本コースはアメリカの人気トレーナーJoe Marini氏のコースを日本のユーザー向けに再構成したものです）。
+![Python：ヒントとテクニック][lil-thumbnail-url] 
+Pythonの学習を進めるさいに「Pythonだとこんなことができるんだ」という単純な驚きから、「こういう仕組みだからこういうことができるんだ」という気づきに展開することができれば、学習が発見にあふれ、楽しくなるのではないでしょうか。このコースではPythonの特徴的な仕様にフォーカスを当ててPythonを学びます。Pythonの哲学である「The Zen of Python」の説明から始まり、イテラブルの操作でのall関数やany関数の使用、浅いコピーと深いコピーの違い、そしてラムダ式の使用を解説します。それに加えデコレータやキーワード付き引数、Pythonを学習するのに役立つ関数なども紹介します。このコースでいつもとは違った角度からPythonを学習してみましょう。
 
 ## リポジトリの使い方
 このリポジトリには必要に応じてブランチが設けられています。ブランチのポップアップメニューを使用して、使用するブランチに切り替えたあとにコースを視聴してください。またURLに`「/tree/ブランチ名」`を追加することで、アクセスしたいブランチに移動することも可能です。
@@ -24,13 +24,14 @@ Pythonの扱いに慣れ、もう少し実践的なプログラミング手法�
 	次のコマンドで変更をコミットします：git commit -m "some message"
 
 ## インストール
-1. エクササイズファイルを利用するさいは、次のソフトウェアをインストールしておく必要があります。
+1. Pythonをインストールしてください。
 	- [Python](https://www.python.org)
-2. エクササイズファイルを効率よく利用するには、次のソフトウェアをインストールすることをお勧めします。VS Codeを日本語化するにはインストール後、拡張機能Japanese Language Pack for Visual Studio Codeをインストールしてしてください。
-    - [VS Code](https://code.visualstudio.com)
-
-    
-3. GitHubよりダウンロードしたZIPファイルを解凍して利用してください。
+2. VS Codeをインストールしてください。
+    - [VS Code](https://code.visualstudio.com)    
+3. VS Codeの拡張機能であるJapanese Language Pack for Visual Studio Codeをインストールしてください。インストール後にVS Codeを再起動すると日本語化されます。
+4. VS Codeの拡張機能であるPython extension for Visual Studio Codeをインストールしてください。
+5. Exercise Filesをドキュメントフォルダなどに配置してください。
+6. VS Codeを起動して、Exercise Filesの各チャプター(Ch01など)を開いてください。
 
 ### インストラクター
 
@@ -40,5 +41,5 @@ _株式会社イーザー副社長、テクニカルライター_
 
 この講師の他のコースを視聴する：[LinkedInラーニング](https://www.linkedin.com/learning/instructors/21400000)
 
-[lil-course-url]: https://www.linkedin.com/learning/advanced-python-22157857
-[lil-thumbnail-url]: https://media.licdn.com/dms/image/D560DAQGdlmVRJq1dDQ/learning-public-crop_675_1200/0/1683231698784?e=2147483647&v=beta&t=2TqyuFf-fPW1j4bPtmvV6GBk-c5s03wbQBpp-aVVa4M
+[lil-course-url]: https://www.linkedin.com/learning/python-tips-tricks-and-techniques
+[lil-thumbnail-url]: https://media.licdn.com/dms/image/D4D0DAQH20mG0A_sXJA/learning-public-crop_675_1200/0/1703184236382?e=2147483647&v=beta&t=Rv9lXvZwz32ZH2GTpiWAlmQfBboTfC5L-4pX-K1mmz0
